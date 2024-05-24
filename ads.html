@@ -166,7 +166,7 @@ function generateAds() {
 // Function to refresh ads and update points every second
 function refreshAds() {
   setInterval(() => {
-    points += 0.001; // Add 0.001 points every second
+    points += 0.005; // Add 0.001 points every second
     document.getElementById('pointsDisplay').innerText = `Points: ${points.toFixed(3)}`;
   localStorage.setItem('points', points); // Save points to localStorage
     p+= 1;
